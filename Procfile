@@ -1,1 +1,1 @@
-worker: node mapachebot.js
+worker: node Bonis.js
