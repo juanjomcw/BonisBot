@@ -42,7 +42,7 @@ client.on("message", (message) => {
             messages = messages.filter(m => m.author.id === filterBy).arary().slice(0, amount);
         }
         message.channel.bulkDelete(messages).catch(error => console.log(error.stack));
-//Puede eliminar el message.channel.send que se encuentra abajo si lo desea, es opcional.
+       //Puede eliminar el message.channel.send que se encuentra abajo si lo desea, es opcional.
         message.channel.send("¡Adios popo :poop: !");
     });
 }}else
@@ -106,7 +106,7 @@ client.on("message", (message) => {
           .setColor(10371071)
 
         message.channel.send({embed});
-     }else
+    }else
         if(message.content.startsWith(prefix + "help")){
      
    message.channel.send('**'+message.author.username+'**, Revisa tus mensajes privados.');
@@ -121,5 +121,6 @@ client.on("message", (message) => {
                       
                        
                        '**BonisBot - Bot Oficial del servidor**\n');
+        }
 });
 client.login(process.env.TOKEN);
