@@ -26,7 +26,7 @@ client.on("message", (message) => {
     if (message.author.bot) return;
 
    if (message.content.startsWith(prefix + "twitter")){
-   message.channel.send('<https://twitter.com/AntonellaAservi>');
+   message.channel.send('https://twitter.com/AntonellaAservi');
  }else
   if (message.content.startsWith(prefix + 'del')) {
   if (!message.member.roles.find("name", "Bot")) return message.reply('No tienes permiso de usar este comando.');{
@@ -47,10 +47,10 @@ client.on("message", (message) => {
     });
 }}else
  if (message.content.startsWith(prefix + "insta")){
-   message.channel.send('<https://www.instagram.com/antonella.aservi>');
+   message.channel.send('https://www.instagram.com/antonella.aservi');
  }else
  if (message.content.startsWith(prefix + "yt")){
-   message.channel.send('<https://www.youtube.com/channel/UCN9cqxp4VjfXsEGj_sRk3jQ>');
+   message.channel.send('https://www.youtube.com/channel/UCN9cqxp4VjfXsEGj_sRk3jQ');
  }else
  if(message.content.startsWith(prefix + 'avatar')){
    let img = message.mentions.users.first()
