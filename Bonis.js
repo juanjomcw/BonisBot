@@ -49,7 +49,7 @@ client.on("message", (message) => {
  if (message.content.startsWith(prefix + "insta")){
    message.channel.send('https://www.instagram.com/antonella.aservi');
  }else
-    if (message.content.startsWith(prefix + "saosin")){
+    if (message.content.startsWith(prefix + "horario")){
       message.channel.send("", {file:"https://gyazo.com/47839e77822f0597e7f81139a1eac90f"});
        
 }else
