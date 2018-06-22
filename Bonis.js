@@ -50,7 +50,7 @@ client.on("message", (message) => {
    message.channel.send('https://www.instagram.com/antonella.aservi');
  }else
     if (message.content.startsWith(prefix + "horario")){
-      message.channel.send("", {file:"https://gyazo.com/47839e77822f0597e7f81139a1eac90f"});
+      message.channel.send("Este es el Horario del Stream", {file:"https://cdn.discordapp.com/attachments/459460014952939530/459613908727103488/47839e77822f0597e7f81139a1eac90f.png"});
        
 }else
  if (message.content.startsWith(prefix + "yt")){
