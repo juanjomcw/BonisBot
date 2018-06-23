@@ -11,12 +11,12 @@ client.on("ready", () => {
  client.on("guildMemberAdd", (member) => 
  {
      messageToSend = "Bienvenido " + member.user + " a la #BonisArmy !  disfruta tu estadia!";
-     client.channels.get('4459447414999482368').sendMessage(messageToSend);
+     client.channels.get('459447414999482368').sendMessage(messageToSend);
  });
  client.on("guildMemberRemove", (member) => 
  {
      messageToSend = member.user.username + " ha salido del servidor, te extrañaremos!.";
-     client.channels.get('4459447414999482368').sendMessage(messageToSend);
+     client.channels.get('459447414999482368').sendMessage(messageToSend);
  });
 
 let prefix = process.env.PREFIX;
