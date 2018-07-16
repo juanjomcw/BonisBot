@@ -127,6 +127,7 @@ client.on("message", (message) => {
                        '-> '+prefix+'insta | Instagram Antonella.\n'+
                        '-> '+prefix+'twitter | Twitter Antonella.\n'+
                        '-> '+prefix+'fb | Grupo de fb.\n'+
+                       '-> '+prefix+'twitch | Twitch antonella.\n'+
                        '-> '+prefix+'yt | YouTube Antonella.\n'+
                        '-> '+prefix+'del <cantidad> | borra los mensajes (SOLO MODERADORES).\n'+
                       
