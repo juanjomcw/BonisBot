@@ -56,6 +56,9 @@ client.on("message", (message) => {
  if (message.content.startsWith(prefix + "yt")){
    message.channel.send('https://www.youtube.com/channel/UCN9cqxp4VjfXsEGj_sRk3jQ');
  }else
+ if (message.content.startsWith(prefix + "fb")){
+   message.channel.send('https://www.facebook.com/groups/230383897539133/');
+ }else
  if(message.content.startsWith(prefix + 'avatar')){
    let img = message.mentions.users.first()
    if (!img) {
@@ -120,6 +123,7 @@ client.on("message", (message) => {
                        '-> '+prefix+'love <@user> y <@user> | Muestra el amor que tienes entre dos personas .\n'+
                        '-> '+prefix+'insta | Instagram Antonella.\n'+
                        '-> '+prefix+'twitter | Twitter Antonella.\n'+
+                       '-> '+prefix+'fb | Grupo de fb.\n'+
                        '-> '+prefix+'yt | YouTube Antonella.\n'+
                        '-> '+prefix+'del <cantidad> | borra los mensajes (SOLO MODERADORES).\n'+
                       
