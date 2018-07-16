@@ -29,7 +29,7 @@ client.on("message", (message) => {
    message.channel.send('https://twitter.com/AntonellaAservi');
  }else
   if (message.content.startsWith(prefix + 'del')) {
-  if (!message.member.roles.find("name", "Bot")) return message.reply('No tienes permiso de usar este comando.');{
+  if (!message.member.roles.find("name", "BONIS MOD")) return message.reply('No tienes permiso de usar este comando.');{
     const user = message.mentions.users.first();
     const amount = !!parseInt(message.content.split(' ')[1]) ? parseInt(message.content.split(' ')[1]) : parseInt(message.content.split(' ')[2])
     if (!amount) return message.reply('Especifica la cantidad de mensajes que deseas borrar');
