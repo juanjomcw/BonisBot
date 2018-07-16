@@ -91,7 +91,11 @@ client.on("message", (message) => {
        if (!arguments) return message.reply(`Escriba una pregunta.`);
        message.channel.send(message.member.user+' Mi respuesta es: `'+ rpts[Math.floor(Math.random() * rpts.length)]+'`');
    
-   }else 
+   }else
+    if (message.content.startsWith(prefix + "banned")){
+      message.channel.send("", {file:"https://imgur.com/gallery/O3DHIA5"});
+       
+}else 
     if(message.content.startsWith(prefix + 'love')){
         let users = message.mentions.users.map(m => m.username).join(' y ');
      if(!users) return message.channel.send('Mencione a dos usuarios para calcular');
