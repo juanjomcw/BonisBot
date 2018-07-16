@@ -93,7 +93,7 @@ client.on("message", (message) => {
    
    }else
     if (message.content.startsWith(prefix + "banned")){
-      message.channel.send("", {file:"https://imgur.com/gallery/O3DHIA5"});
+      message.channel.send("", {file:"https://cdn.discordapp.com/attachments/421867754480599050/468529032494055454/O3DHIA5.gif"});
        
 }else 
     if(message.content.startsWith(prefix + 'love')){
