@@ -63,9 +63,10 @@ client.on("message", (message) => {
     message.channel.send({embed: {
       color: 3447003,
       description: 'Para poner musica sigue los siguientes pasos.\n'+
-                    ':one: - ir al canal de <#468816716806488084> para poder poner musica.\n'+
-                    ':two: - para poner canciones usa el comando **;;p cancion** \n'+
-                    ':three: - escoger una cancion de la lista obtenida usando **;;numero de la lista**\n'+
+                    ':one:  ir al canal de voz de __musica__.\n'+
+                    ':two:  ir al canal de <#468816716806488084> para poder poner musica.\n'+
+                    ':three:  para poner canciones usa el comando **;;p cancion** \n'+
+                    ':four:  escoger una cancion de la lista obtenida usando **;;numero de la lista**\n'+
                     '----------------------------------------------------------------------------\n'+
                     '__**COMANDOS ADICIONALES**__\n'+
                     '**;;list** | muestra lista de reproducion\n'+
@@ -77,6 +78,9 @@ client.on("message", (message) => {
 }else
  if (message.content.startsWith(prefix + "fb")){
    message.channel.send('https://www.facebook.com/groups/230383897539133/');
+ }else
+ if (message.content.startsWith(prefix + "discord")){
+   message.channel.send('https://discord.gg/RRSsaFE');
  }else
  if(message.content.startsWith(prefix + 'avatar')){
    let img = message.mentions.users.first()
@@ -149,9 +153,9 @@ client.on("message", (message) => {
                        '-> '+prefix+'fb | Grupo de fb.\n'+
                        '-> '+prefix+'twitch | Twitch antonella.\n'+
                        '-> '+prefix+'yt | YouTube Antonella.\n'+
+                       '-> '+prefix+'musica | Como poner musica en el bot.\n'+
                        '-> '+prefix+'del <cantidad> | borra los mensajes (SOLO MODERADORES).\n'+
-                      
-                       
+                       '-> '-------------------------------------------------------------------\n'+
                        '**BonisBot - Bot Oficial del servidor**\n');
         }
 });
