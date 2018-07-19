@@ -59,6 +59,22 @@ client.on("message", (message) => {
  if (message.content.startsWith(prefix + "yt")){
    message.channel.send('https://www.youtube.com/channel/UCN9cqxp4VjfXsEGj_sRk3jQ');
  }else
+    if (message.content.startsWith(prefix +"musica")){
+    message.channel.send({embed: {
+      color: 3447003,
+      description: 'Para poner musica sigue los siguientes pasos.\n'+
+                    '1.- ir al canal de <#468816716806488084> para poder poner musica.\n'+
+                    '2.- para poner canciones usa el comando **;;p cancion** \n'+
+                    '3.- escoger una cancion de la lista obtenida usando **;;numero de la lista**\n'+
+                    '----------------------------------------------------------------------------\n'+
+                    '_**COMANDOS ADICIONALES**_\n'+
+                    '**;;list** | muestra lista de reproducion\n'+
+                    '**;;s** o **;;skip** | saltar la cancion (haganlo cuando sea necesario)\n'+
+                    '**;;nowplaying** | cancion actual\n'+
+                    '----------------------------------------------------------------------------\n'+
+                    'en caso de tener preguntas no duden en decirle a un _**MOD**_ o alguna persona del server\n'
+    }});
+}else
  if (message.content.startsWith(prefix + "fb")){
    message.channel.send('https://www.facebook.com/groups/230383897539133/');
  }else
