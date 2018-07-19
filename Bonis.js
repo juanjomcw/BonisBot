@@ -63,9 +63,9 @@ client.on("message", (message) => {
     message.channel.send({embed: {
       color: 3447003,
       description: 'Para poner musica sigue los siguientes pasos.\n'+
-                    '1.- ir al canal de <#468816716806488084> para poder poner musica.\n'+
-                    '2.- para poner canciones usa el comando **;;p cancion** \n'+
-                    '3.- escoger una cancion de la lista obtenida usando **;;numero de la lista**\n'+
+                    ':one: - ir al canal de <#468816716806488084> para poder poner musica.\n'+
+                    ':two: - para poner canciones usa el comando **;;p cancion** \n'+
+                    ':three: - escoger una cancion de la lista obtenida usando **;;numero de la lista**\n'+
                     '----------------------------------------------------------------------------\n'+
                     '__**COMANDOS ADICIONALES**__\n'+
                     '**;;list** | muestra lista de reproducion\n'+
