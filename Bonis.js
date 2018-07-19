@@ -155,7 +155,7 @@ client.on("message", (message) => {
                        '-> '+prefix+'yt | YouTube Antonella.\n'+
                        '-> '+prefix+'musica | Como poner musica en el bot.\n'+
                        '-> '+prefix+'del <cantidad> | borra los mensajes (SOLO MODERADORES).\n'+
-                       '-> '-------------------------------------------------------------------\n'+
+                       '---------------------------------------------------------------------\n'+
                        '**BonisBot - Bot Oficial del servidor**\n');
         }
 });
