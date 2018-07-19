@@ -10,12 +10,12 @@ client.on("ready", () => {
 
  client.on("guildMemberAdd", (member) => 
  {
-     messageToSend = "Bienvenido " + member.user + " a la #BonisArmy !  disfruta tu estadia!";
+     messageToSend = "Bienvenido " + member.user + " a la #BonisArmy!  disfruta tu estadia!";
      client.channels.get('459447414999482368').sendMessage(messageToSend);
  });
  client.on("guildMemberRemove", (member) => 
  {
-     messageToSend = member.user.username + " ha salido del servidor, te extrañaremos!.";
+     messageToSend = member.user.username + " ha salido del servidor, te extrañaremos! <:FeelsBadMan:464842674260934657>";
      client.channels.get('459447414999482368').sendMessage(messageToSend);
  });
 
