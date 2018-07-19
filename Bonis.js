@@ -67,12 +67,12 @@ client.on("message", (message) => {
                     '2.- para poner canciones usa el comando **;;p cancion** \n'+
                     '3.- escoger una cancion de la lista obtenida usando **;;numero de la lista**\n'+
                     '----------------------------------------------------------------------------\n'+
-                    '_**COMANDOS ADICIONALES**_\n'+
+                    '__**COMANDOS ADICIONALES**__\n'+
                     '**;;list** | muestra lista de reproducion\n'+
-                    '**;;s** o **;;skip** | saltar la cancion (haganlo cuando sea necesario)\n'+
+                    '**;;s** o **;;skip** | saltar la cancion (__haganlo cuando sea necesario__)\n'+
                     '**;;nowplaying** | cancion actual\n'+
                     '----------------------------------------------------------------------------\n'+
-                    'en caso de tener preguntas no duden en decirle a un _**MOD**_ o alguna persona del server\n'
+                    'En caso de tener preguntas no duden en decirle a un __**MOD**__ o alguna persona del server\n'
     }});
 }else
  if (message.content.startsWith(prefix + "fb")){
