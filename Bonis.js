@@ -61,7 +61,7 @@ client.on("message", (message) => {
                     'MARTES - JUEVES - VIERNES - DOMINGOS.\n'+
                     '**HORA**: 8PM PERU :flag_pe: | 8PM MEXICO :flag_mx: | 10PM ARGENTINA :flag_ar: |    9PM CHILE :flag_cl: | 8PM COLOMBIA :flag_co: | \n'+
                     '----------------------------------------------------------------------------\n'+
-                    'DOMINGOS - EN CANAL DE AMD_LATAM **8PM PERU**\n'+
+                    'DOMINGOS - EN CANAL DE AMD_LATAM | **8PM PERU**\n'+
                     'https://www.twitch.tv/amd_latam \n'+
                     '----------------------------------------------------------------------------\n'+
                     'CUALQUIER __CAMBIO__ SE DARA A CONOCER EN LA **FANPAGE DE FACEBOOK** O EN EL **DISCORD**\n'
