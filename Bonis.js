@@ -56,17 +56,16 @@ client.on("message", (message) => {
     if (message.content.startsWith(prefix +"horario")){
     message.channel.send({embed: {
       color: 3447003,
-      description:  '__ESTOS SON LOS HORARIOS DE STREAM__.\n'+
-                    '----------------------------------------------------------------------------------------------------------------------------------------------------\n'+
+      description:  '**ESTOS SON LOS HORARIOS DE STREAM**.\n'+
+                    '----------------------------------------------------------------------------\n'+
                     'MARTES - JUEVES - VIERNES - DOMINGOS.\n'+
-                    '__HORA__: 8PM PERU :flag_pe: | 8PM MEXICO :flag_mx: | 10PM ARGENTINA :flag_ar: | 9PM CHILE :flag_cl: | 8PM COLOMBIA :flag_co: | \n'+
+                    '**HORA**: 8PM PERU :flag_pe: | 8PM MEXICO :flag_mx: | 10PM ARGENTINA :flag_ar: | 9PM CHILE :flag_cl: | 8PM COLOMBIA :flag_co: | \n'+
                     '----------------------------------------------------------------------------\n'+
                     'DOMINGOS - EN CANAL DE AMD_LATAM **8PM PERU**\n'+
                     'https://www.twitch.tv/amd_latam \n'+
-                    '----------------------------------------------------------------------------------------------------------------------------------------------------\n'+
-                    'CUALQUIER __CAMBIO__ SE DARA A CONOCER EN LA **FANPAGE DE FACEBOOK** O EN EL **DISCORD**\n'+
-                    '----------------------------------------------------------------------------------------------------------------------------------------------------\n'
-                    
+                    '----------------------------------------------------------------------------\n'+
+                    'CUALQUIER __CAMBIO__ SE DARA A CONOCER EN LA **FANPAGE DE FACEBOOK** O EN EL **DISCORD**\n'
+                                        
     }});
 }else
  if (message.content.startsWith(prefix + "yt")){
