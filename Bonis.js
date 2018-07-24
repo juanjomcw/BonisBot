@@ -59,7 +59,7 @@ client.on("message", (message) => {
       description:  '**ESTOS SON LOS HORARIOS DE STREAM**.\n'+
                     '----------------------------------------------------------------------------\n'+
                     'MARTES - JUEVES - VIERNES - DOMINGOS.\n'+
-                    '**HORA**: 8PM PERU :flag_pe: | 8PM MEXICO :flag_mx: | 10PM ARGENTINA :flag_ar: |    9PM CHILE :flag_cl: | 8PM COLOMBIA :flag_co: | \n'+
+                    '**HORA**: 8PM PERU :flag_pe: | 8PM MEXICO :flag_mx: | 10PM ARGENTINA :flag_ar: |        9PM CHILE :flag_cl: | 8PM COLOMBIA :flag_co: | \n'+
                     '----------------------------------------------------------------------------\n'+
                     'DOMINGOS - EN CANAL DE AMD_LATAM | **8PM PERU**\n'+
                     'https://www.twitch.tv/amd_latam \n'+
