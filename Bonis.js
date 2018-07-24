@@ -51,10 +51,23 @@ client.on("message", (message) => {
  }else
  if (message.content.startsWith(prefix + "twitch")){
    message.channel.send('https://www.twitch.tv/antonellaaservi');
- }else
-    if (message.content.startsWith(prefix + "horario")){
-      message.channel.send("", {file:"https://cdn.discordapp.com/attachments/459460014952939530/459613908727103488/47839e77822f0597e7f81139a1eac90f.png"});
-       
+ 
+}else
+    if (message.content.startsWith(prefix +"horario")){
+    message.channel.send({embed: {
+      color: 3447003,
+      description:  '__ESTOS SON LOS HORARIOS DE STREAM__.\n'+
+                    '----------------------------------------------------------------------------------------------------------------------------------------------------\n'+
+                    'MARTES - JUEVES - VIERNES - DOMINGOS.\n'+
+                    '__HORA__: 8PM PERU :flag_pe: | 8PM MEXICO :flag_mx: | 10PM ARGENTINA :flag_ar: | 9PM CHILE :flag_cl: | 8PM COLOMBIA :flag_co: | \n'+
+                    '----------------------------------------------------------------------------\n'+
+                    'DOMINGOS - EN CANAL DE AMD_LATAM **8PM PERU**\n'+
+                    'https://www.twitch.tv/amd_latam \n'+
+                    '----------------------------------------------------------------------------------------------------------------------------------------------------\n'+
+                    'CUALQUIER __CAMBIO__ SE DARA A CONOCER EN LA **FANPAGE DE FACEBOOK** O EN EL **DISCORD**\n'+
+                    '----------------------------------------------------------------------------------------------------------------------------------------------------\n'
+                    
+    }});
 }else
  if (message.content.startsWith(prefix + "yt")){
    message.channel.send('https://www.youtube.com/channel/UCN9cqxp4VjfXsEGj_sRk3jQ');
