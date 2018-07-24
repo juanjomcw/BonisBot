@@ -60,6 +60,7 @@ client.on("message", (message) => {
                     '----------------------------------------------------------------------------\n'+
                     'MARTES - JUEVES - VIERNES - DOMINGOS.\n'+
                     '**HORA**: 8PM PERU :flag_pe: | 8PM MEXICO :flag_mx: | 10PM ARGENTINA :flag_ar: |        9PM CHILE :flag_cl: | 8PM COLOMBIA :flag_co: | \n'+
+                    'https://www.twitch.tv/antonellaaservi\n'+  
                     '----------------------------------------------------------------------------\n'+
                     'DOMINGOS - EN CANAL DE AMD_LATAM | **8PM PERU**\n'+
                     'https://www.twitch.tv/amd_latam \n'+
@@ -167,6 +168,7 @@ client.on("message", (message) => {
                        '-> '+prefix+'yt | YouTube Antonella.\n'+
                        '-> '+prefix+'musica | Como poner musica en el bot.\n'+
                        '-> '+prefix+'discord | invitacion de discord para compartirla.\n'+
+                       '-> '+prefix+'horario | Horario de streams.\n'+
                        '-> '+prefix+'del <cantidad> | borra los mensajes (SOLO MODERADORES).\n'+
                        '-------------------------------------------------------------------------------------\n'+
                        '**BonisBot - Bot Oficial del servidor**\n');
