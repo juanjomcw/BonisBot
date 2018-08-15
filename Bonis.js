@@ -55,7 +55,7 @@ client.on("message", (message) => {
 }else
     if (message.content.startsWith(prefix +"horario")){
     message.channel.send({embed: {
-      color: 3447003,
+      color: 16716947,
       description:  '**ESTOS SON LOS HORARIOS DE STREAM**.\n'+
                     '----------------------------------------------------------------------------\n'+
                     'MARTES - JUEVES - VIERNES - DOMINGOS.\n'+
@@ -74,7 +74,7 @@ client.on("message", (message) => {
  }else
     if (message.content.startsWith(prefix +"musica")){
     message.channel.send({embed: {
-      color: 3447003,
+      color: 16716947,
       description: 'Para poner musica sigue los siguientes pasos.\n'+
                     ':one:  ir al canal de voz de __musica__.\n'+
                     ':two:  ir al canal de <#468816716806488084> para poder poner musica.\n'+
@@ -134,21 +134,21 @@ client.on("message", (message) => {
 }else
     if (message.content.startsWith(prefix +"regla 2")){
     message.channel.send({embed: {
-      color: 3447003,
+      color: 16711680,
       description:  '**2)** Está terminantemente prohibido compartir contenido de carácter político, pornográfico o gore (Incluyendo contenido NSFW). Publicar dicho contenido será expulsado del servidor.\n' 
                                         
     }});
 }else
     if (message.content.startsWith(prefix +"regla 3")){
     message.channel.send({embed: {
-      color: 3447003,
+      color: 16711680,
       description:  '**3)** Está prohibido el Racismo/Discriminación/Faltas de Respeto contra otros usuarios en este servidor. En caso de encontrarse partícipe de dicha infracción, serás silenciado por 24hs (con posibilidad de Expulsión).\n' 
                                         
     }});
 }else
     if (message.content.startsWith(prefix +"regla 4")){
     message.channel.send({embed: {
-      color: 3447003,
+      color: 16711680,
       description:  '**4)** No Spam! En caso de encontrarte infringiendo dicha regla, serás silenciado por 1 hora.\n' 
                                         
     }});
@@ -178,7 +178,7 @@ client.on("message", (message) => {
       const embed = new Discord.RichEmbed()
           .setAuthor('El porcentaje de amor de '+users+' es:')
           .setDescription(heard+' **'+random+' %**'+' '+heard)
-          .setColor(10371071)
+          .setColor(16716947)
 
         message.channel.send({embed});
     }else
