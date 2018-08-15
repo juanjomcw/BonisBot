@@ -124,7 +124,35 @@ client.on("message", (message) => {
        if (!arguments) return message.reply(`Escriba una pregunta.`);
        message.channel.send(message.member.user+' Mi respuesta es: `'+ rpts[Math.floor(Math.random() * rpts.length)]+'`');
    
-   }else
+  }else
+    if (message.content.startsWith(prefix +"regla 1")){
+    message.channel.send({embed: {
+      color: 3447003,
+      description:  '**1)** Los canales son de libre opinión, pero no se permitirán comentarios inapropiados. Cuidar el uso de palabras que puedan ser mal interpretadas por otros usuarios o de contexto obsceno.\n' 
+                                        
+    }});
+}else
+    if (message.content.startsWith(prefix +"regla 2")){
+    message.channel.send({embed: {
+      color: 3447003,
+      description:  '**2)** Está terminantemente prohibido compartir contenido de carácter político, pornográfico o gore (Incluyendo contenido NSFW). Publicar dicho contenido será expulsado del servidor.\n' 
+                                        
+    }});
+}else
+    if (message.content.startsWith(prefix +"regla 3")){
+    message.channel.send({embed: {
+      color: 3447003,
+      description:  '**3)** Está prohibido el Racismo/Discriminación/Faltas de Respeto contra otros usuarios en este servidor. En caso de encontrarse partícipe de dicha infracción, serás silenciado por 24hs (con posibilidad de Expulsión).\n' 
+                                        
+    }});
+}else
+    if (message.content.startsWith(prefix +"regla 4")){
+    message.channel.send({embed: {
+      color: 3447003,
+      description:  '**4)** No Spam! En caso de encontrarte infringiendo dicha regla, serás silenciado por 1 hora.\n' 
+                                        
+    }});
+}else
     if (message.content.startsWith(prefix + "banned")){
       message.channel.send("", {file:"https://cdn.discordapp.com/attachments/421867754480599050/468529032494055454/O3DHIA5.gif"});
        
@@ -170,6 +198,7 @@ client.on("message", (message) => {
                        '-> '+prefix+'discord | invitacion de discord para compartirla.\n'+
                        '-> '+prefix+'horario | Horario de streams.\n'+
                        '-> '+prefix+'del <cantidad> | borra los mensajes (SOLO MODERADORES).\n'+
+                       '-> '+prefix+'regla <1-4> | reglas una por una.\n'+
                        '-------------------------------------------------------------------------------------\n'+
                        '**BonisBot - Bot Oficial del servidor**\n');
         }
