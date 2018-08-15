@@ -127,7 +127,7 @@ client.on("message", (message) => {
   }else
     if (message.content.startsWith(prefix +"regla 1")){
     message.channel.send({embed: {
-      color: 3447003,
+      color: 16711680,
       description:  '**1)** Los canales son de libre opinión, pero no se permitirán comentarios inapropiados. Cuidar el uso de palabras que puedan ser mal interpretadas por otros usuarios o de contexto obsceno.\n' 
                                         
     }});
