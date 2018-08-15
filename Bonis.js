@@ -156,6 +156,10 @@ client.on("message", (message) => {
     if (message.content.startsWith(prefix + "banned")){
       message.channel.send("", {file:"https://cdn.discordapp.com/attachments/421867754480599050/468529032494055454/O3DHIA5.gif"});
        
+}else
+    if (message.content.startsWith(prefix + "blackmoon")){
+      message.channel.send("", {file:"https://cdn.discordapp.com/attachments/459460014952939530/479172222880186368/40ae42c13de97d3991dd0379514eb500.png"});
+       
 }else 
     if(message.content.startsWith(prefix + 'love')){
         let users = message.mentions.users.map(m => m.username).join(' y ');
