@@ -203,6 +203,7 @@ client.on("message", (message) => {
                        '-> '+prefix+'horario | Horario de streams.\n'+
                        '-> '+prefix+'del <cantidad> | borra los mensajes (SOLO MODERADORES).\n'+
                        '-> '+prefix+'regla <1-4> | reglas una por una.\n'+
+                       '-> '+prefix+'blackmoon | foto sensualona.\n'+
                        '-------------------------------------------------------------------------------------\n'+
                        '**BonisBot - Bot Oficial del servidor**\n');
         }
