@@ -22,8 +22,15 @@ client.on("ready", () => {
 let prefix = process.env.PREFIX;
 
 client.on("message", (message) => {
+    switch(message.content.toUpperCase()) {
+        case '?RESET':
+            resetBot(message.channel);
+            break;
+    }
     if (!message.content.startsWith(prefix)) return;
     if (message.author.bot) return;
+
+
 
    if (message.content.startsWith(prefix + "twitter")){
    message.channel.send('https://twitter.com/AntonellaAservi');
@@ -52,7 +59,15 @@ client.on("message", (message) => {
  if (message.content.startsWith(prefix + "twitch")){
    message.channel.send('https://www.twitch.tv/antonellaaservi');
  
-}else
+  }else
+  if (message.content.startsWith(prefix + "reset")){
+     if (!message.member.roles.find("name", "BONIS MOD")) return message.reply('No tienes permiso de usar este comando.');{  
+     function resetBot(channel) {
+        channel.send('Resetting...')
+        .then(msg => client.destroy())
+        .then(() => client.login(process.env.TOKEN));
+      }};
+  }else
     if (message.content.startsWith(prefix +"horario")){
     message.channel.send({embed: {
       color: 16716947,
