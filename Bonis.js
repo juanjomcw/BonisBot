@@ -31,7 +31,9 @@ client.on("message", (message) => {
     if (message.author.bot) return;
 
 
-
+   if (message.content.startsWith(prefix + "subs")) {
+   message.channel.send("Mira el canal de <#415978105883066369> para vincular la cuenta y disfrutar de tus beneficios");
+ }else
    if (message.content.startsWith(prefix + "twitter")){
    message.channel.send('https://twitter.com/AntonellaAservi');
  }else
