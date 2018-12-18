@@ -179,7 +179,7 @@ client.on("message", (message) => {
        
 }else
     if (message.content.startsWith(prefix + "FBI")){
-      message.channel.send("FBI OPEN UP!", {file:"https://tenor.com/Wp1T.gif"});
+      message.channel.send("FBI OPEN UP!", {file:"https://cdn.discordapp.com/attachments/421867754480599050/524642604835667978/Animated_GIF-source.gif"});
        
 }else 
     if(message.content.startsWith(prefix + 'love')){
