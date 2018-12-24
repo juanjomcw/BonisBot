@@ -181,6 +181,10 @@ client.on("message", (message) => {
     if (message.content.startsWith(prefix + "FBI")){
       message.channel.send("FBI OPEN UP!", {file:"https://cdn.discordapp.com/attachments/421867754480599050/524642604835667978/Animated_GIF-source.gif"});
        
+}else
+    if (message.content.startsWith(prefix + "MAFIA")){
+      message.channel.send("FBI OPEN UP!", {file:"https://cdn.discordapp.com/attachments/459582422288302100/526646031786442752/giphy-3.gif"});
+       
 }else 
     if(message.content.startsWith(prefix + 'love')){
         let users = message.mentions.users.map(m => m.username).join(' y ');
