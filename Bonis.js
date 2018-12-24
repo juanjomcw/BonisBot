@@ -183,7 +183,7 @@ client.on("message", (message) => {
        
 }else
     if (message.content.startsWith(prefix + "MAFIA")){
-      message.channel.send("FBI OPEN UP!", {file:"https://cdn.discordapp.com/attachments/459582422288302100/526646031786442752/giphy-3.gif"});
+      message.channel.send("La Bonis Mafia te suportea hijo.", {file:"https://cdn.discordapp.com/attachments/459582422288302100/526646031786442752/giphy-3.gif"});
        
 }else 
     if(message.content.startsWith(prefix + 'love')){
