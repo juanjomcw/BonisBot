@@ -193,7 +193,7 @@ client.on("message", (message) => {
                        '★ <https://www.instagram.com/huelladigitaltv/> ★\n');
     
    message.author.send("", {file:"https://cdn.discordapp.com/attachments/541446311225065492/560745196023971840/anto_hd_1.gif"});
-});
+
 }else 
     if(message.content.startsWith(prefix + 'love')){
         let users = message.mentions.users.map(m => m.username).join(' y ');
