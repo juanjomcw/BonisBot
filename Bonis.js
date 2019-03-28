@@ -185,14 +185,12 @@ client.on("message", (message) => {
     if (message.content.startsWith(prefix + "MAFIA")){
       message.channel.send("La Bonis Mafia te suportea hijo.", {file:"https://cdn.discordapp.com/attachments/459582422288302100/526646031786442752/giphy-3.gif"});
        
-}else
-    if (message.content.startsWith(prefix +"HD")){
-    message.channel.send({embed: {
-      color: 16716947,
-      description:  '★ Todos los domingos a partir del mediodía y través de las pantallas de Latina: "Huella Digital" \n'+
+ }else
+    if (message.content.startsWith(prefix + "HD")){
+message.channel.send('★ Todos los domingos a partir del mediodía y través de las pantallas de Latina: "Huella Digital" \n'+
                     '★ <https://www.facebook.com/HuellaDigitalTV/> ★\n'+
                     '★ <https://www.instagram.com/huelladigitaltv/> ★\n'+
-                    '"", {file:"https://cdn.discordapp.com/attachments/541446311225065492/560745196023971840/anto_hd_1.gif"} \n'
+                    '{file:"https://cdn.discordapp.com/attachments/541446311225065492/560745196023971840/anto_hd_1.gif"} \n'
                                         
     }});
 }else 
