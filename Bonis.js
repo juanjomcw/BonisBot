@@ -187,12 +187,11 @@ client.on("message", (message) => {
        
  }else
     if (message.content.startsWith(prefix + "HD")){
-      message.author.send('**Comandos de RaccoonBot**\n'+
-                       '★ Todos los domingos a partir del mediodía y través de las pantallas de Latina: __**"Huella Digital"__** ★ \n'+
+      message.channel.send('★ Todos los domingos a partir del mediodía y través de las pantallas de Latina: __**"Huella Digital"__** ★ \n'+
                        '★ <https://www.facebook.com/HuellaDigitalTV/> ★\n'+
                        '★ <https://www.instagram.com/huelladigitaltv/> ★\n');
     
-   message.author.send("", {file:"https://cdn.discordapp.com/attachments/541446311225065492/560745196023971840/anto_hd_1.gif"});
+   message.channel.send("", {file:"https://cdn.discordapp.com/attachments/541446311225065492/560745196023971840/anto_hd_1.gif"});
 
 }else 
     if(message.content.startsWith(prefix + 'love')){
