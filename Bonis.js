@@ -188,7 +188,7 @@ client.on("message", (message) => {
  }else
     if (message.content.startsWith(prefix + "HD")){
       message.author.send('**Comandos de RaccoonBot**\n'+
-                       '★ Todos los domingos a partir del mediodía y través de las pantallas de Latina: "Huella Digital" ★ \n'+
+                       '★ Todos los domingos a partir del mediodía y través de las pantallas de Latina: __**"Huella Digital"__** ★ \n'+
                        '★ <https://www.facebook.com/HuellaDigitalTV/> ★\n'+
                        '★ <https://www.instagram.com/huelladigitaltv/> ★\n');
     
