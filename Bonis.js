@@ -54,7 +54,7 @@ client.on("message", (message) => {
        //Puede eliminar el message.channel.send que se encuentra abajo si lo desea, es opcional.
         message.channel.send("¡Adios popo :poop: !");
     });
-}}else
+}else
  if (message.content.startsWith(prefix + "insta")){
    message.channel.send('https://www.instagram.com/antonella.aservi');
  }else
@@ -191,7 +191,7 @@ client.on("message", (message) => {
                        '★ Todos los domingos a partir del mediodía y través de las pantallas de Latina: "Huella Digital" ★ \n'+
                        '★ <https://www.facebook.com/HuellaDigitalTV/> ★\n'+
                        '★ <https://www.instagram.com/huelladigitaltv/> ★\n');
-               }
+    
    message.author.send("", {file:"https://cdn.discordapp.com/attachments/541446311225065492/560745196023971840/anto_hd_1.gif"});
 });
 }else 
