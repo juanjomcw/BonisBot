@@ -187,7 +187,7 @@ client.on("message", (message) => {
        
  }else
     if (message.content.startsWith(prefix + "HD")){
-      message.channel.send('★ Todos los domingos a partir del mediodía y través de las pantallas de Latina: __**"Huella Digital"__** ★ \n'+
+      message.channel.send('★ Todos los domingos a partir del mediodía y través de las pantallas de Latina: __**Huella Digital**__ ★ \n'+
                        '★ <https://www.facebook.com/HuellaDigitalTV/> ★\n'+
                        '★ <https://www.instagram.com/huelladigitaltv/> ★\n');
     
