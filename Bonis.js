@@ -54,7 +54,7 @@ client.on("message", (message) => {
        //Puede eliminar el message.channel.send que se encuentra abajo si lo desea, es opcional.
         message.channel.send("¡Adios popo :poop: !");
     });
-}else
+  }}else
  if (message.content.startsWith(prefix + "insta")){
    message.channel.send('https://www.instagram.com/antonella.aservi');
  }else
