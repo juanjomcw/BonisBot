@@ -187,13 +187,8 @@ client.on("message", (message) => {
        
  }else
     if (message.content.startsWith(prefix + "HD")){
-message.channel.send('★ Todos los domingos a partir del mediodía y través de las pantallas de Latina: "Huella Digital" \n'+
-                    '★ <https://www.facebook.com/HuellaDigitalTV/> ★\n'+
-                    '★ <https://www.instagram.com/huelladigitaltv/> ★\n'+
-                    '{file:"https://cdn.discordapp.com/attachments/541446311225065492/560745196023971840/anto_hd_1.gif"} \n'
-                                        
-    }});
-}else 
+      message.channel.send("★ Todos los domingos a partir del mediodía y través de las pantallas de Latina: **__Huella Digital__** ★ <https://www.facebook.com/HuellaDigitalTV/> ★ <https://www.instagram.com/huelladigitaltv/> ★", {file:"https://cdn.discordapp.com/attachments/541446311225065492/560745196023971840/anto_hd_1.gif"});
+ }else 
     if(message.content.startsWith(prefix + 'love')){
         let users = message.mentions.users.map(m => m.username).join(' y ');
      if(!users) return message.channel.send('Mencione a dos usuarios para calcular');
